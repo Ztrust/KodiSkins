@@ -67,6 +67,13 @@
 				<width>330</width>
 			</control>
 			
+			<control type="radiobutton" id="8"> <!-- locall -->
+				<description>Hide foreign</description>
+				<label>24999</label>
+				<align>left</align>
+				<width>330</width>
+			</control>
+			
 			<control type="button" id="98">
 				<description>Open Player Controls</description>
 				<width>330</width>
