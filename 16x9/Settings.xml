@@ -108,11 +108,13 @@
 					<label>130</label>
 					<onclick>activatewindow(7)</onclick>
 				</item>
+				
+	<!--			
 				<item id="11">
 					<description>Custom Settings</description>
 					<label>636</label>
 					<onclick>activatewindow(56)</onclick>
-				</item>
+				</item>-->
 			</content>
 		</control>
 
