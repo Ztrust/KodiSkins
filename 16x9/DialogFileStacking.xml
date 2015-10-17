@@ -9,20 +9,20 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<left>510</left>
-			<top>210</top>
+			<posx>510</posx>
+			<posy>210</posy>
 
 			<control type="image">
-				<posx>-30</left>
-				<posy>-30</top>
+				<posx>-30</posx>
+				<posy>-30</posy>
 				<width>960</width>
 				<height>744</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
 			</control>
 
 			<control type="label">
-				<left>15</left>
-				<top>38</top>
+				<posx>15</posx>
+				<posy>38</posy>
 				<width>873</width>
 				<align>center</align>
 				<font>Medium</font>
@@ -30,8 +30,8 @@
 			</control>
 
 			<control type="list" id="450">
-				<left>15</left>
-				<top>117</top>
+				<posx>15</posx>
+				<posy>117</posy>
 				<width>870</width>
 				<height>552</height>
 				<onleft>450</onleft>
@@ -47,7 +47,7 @@
 					</control>
 
 					<control type="label">
-						<left>30</left>
+						<posx>30</posx>
 						<width>810</width>
 						<info>ListItem.Label</info>
 					</control>
@@ -63,7 +63,7 @@
 					</control>
 
 					<control type="label">
-						<left>30</left>
+						<posx>30</posx>
 						<width>810</width>
 						<info>ListItem.Label</info>
 					</control>

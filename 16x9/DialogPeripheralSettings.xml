@@ -5,16 +5,16 @@
 
 	<coordinates>
 		<system>1</system>
-		<left>450</left>
-		<top>120</top>
+		<posx>450</posx>
+		<posy>120</posy>
 	</coordinates>
 
 	<controls>
 
 		<control type="image">
 			<description>background image</description>
-			<posx>-30</left>
-			<posy>-30</top>
+			<posx>-30</posx>
+			<posy>-30</posy>
 			<width>1080</width>
 			<height>900</height>
 			<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,8 +22,8 @@
 
 		<control type="label">
 			<description>header label</description>
-			<left>15</left>
-			<top>15</top>
+			<posx>15</posx>
+			<posy>15</posy>
 			<width>990</width>
 			<align>center</align>
 			<font>Medium</font>
@@ -32,8 +32,8 @@
 
 		<control type="label" id="3">
 			<description>No Settings Label</description>
-			<left>15</left>
-			<top>270</top>
+			<posx>15</posx>
+			<posy>270</posy>
 			<width>990</width>
 			<align>center</align>
 			<label>35004</label>
@@ -42,8 +42,8 @@
 		
 		<control type="grouplist" id="5">
 			<description>control area</description>
-			<left>15</left>
-			<top>105</top>
+			<posx>15</posx>
+			<posy>105</posy>
 			<width>990</width>
 			<height>528</height>
 			<itemgap>3</itemgap>
@@ -82,13 +82,13 @@
 		</control>
 
 		<control type="group" id="9000">
-			<left>15</left>
-			<top>758</top>
+			<posx>15</posx>
+			<posy>758</posy>
 
 			<control type="button" id="28">
 				<description>OK Button</description>
-				<left>0</left>
-				<top>0</top>
+				<posx>0</posx>
+				<posy>0</posy>
 				<width>300</width>
 				<label>186</label>
 				<onleft>50</onleft>
@@ -99,8 +99,8 @@
 
 			<control type="button" id="29">
 				<description>Cancel Button</description>
-				<left>345</left>
-				<top>0</top>
+				<posx>345</posx>
+				<posy>0</posy>
 				<width>300</width>
 				<label>222</label>
 				<onleft>28</onleft>
@@ -111,8 +111,8 @@
 
 			<control type="button" id="50">
 				<description>Defaults Button</description>
-				<left>690</left>
-				<top>0</top>
+				<posx>690</posx>
+				<posy>0</posy>
 				<width>300</width>
 				<label>409</label>
 				<onleft>29</onleft>

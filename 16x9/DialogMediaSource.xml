@@ -9,12 +9,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<left>450</left>
-			<top>120</top>
+			<posx>450</posx>
+			<posy>120</posy>
 
 			<control type="image">
-				<posx>-30</left>
-				<posy>-30</top>
+				<posx>-30</posx>
+				<posy>-30</posy>
 				<width>1125</width>
 				<height>900</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,8 +22,8 @@
 
 			<control type="label" id="0">
 				<description>Path</description>
-				<left>15</left>
-				<top>45</top>
+				<posx>15</posx>
+				<posy>45</posy>
 				<width>990</width>
 				<align>center</align>
 				<font>Medium</font>
@@ -31,8 +31,8 @@
 			</control>
 
 			<control type="list" id="10">
-				<left>15</left>
-				<top>120</top>
+				<posx>15</posx>
+				<posy>120</posy>
 				<width>660</width>
 				<height>483</height>
 				<onup>19</onup>
@@ -48,7 +48,7 @@
 					</control>
 
 					<control type="label">
-						<left>30</left>
+						<posx>30</posx>
 						<width>600</width>
 						<info>ListItem.Label</info>
 					</control>
@@ -65,7 +65,7 @@
 					</control>
 
 					<control type="label">
-						<left>30</left>
+						<posx>30</posx>
 						<width>600</width>
 						<info>ListItem.Label</info>
 					</control>
@@ -75,8 +75,8 @@
 			</control>
 
 			<control type="grouplist" id="9000">
-				<left>705</left>
-				<top>120</top>
+				<posx>705</posx>
+				<posy>120</posy>
 				<width>300</width>
 				<itemgap>3</itemgap>
 				<orientation>vertical</orientation>
@@ -105,16 +105,16 @@
 
 			<control type="label" id="0">
 				<description>Name Label</description>
-				<left>15</left>
-				<top>597</top>
+				<posx>15</posx>
+				<posy>597</posy>
 				<width>990</width>
 				<label>1022</label>
 			</control>
 
 			<control type="button" id="12">
 				<description>Name</description>
-				<left>15</left>
-				<top>672</top>
+				<posx>15</posx>
+				<posy>672</posy>
 				<label>-</label>
 				<width>990</width>
 				<align>left</align>
@@ -127,8 +127,8 @@
 
 			<control type="button" id="18">
 				<description>Ok</description>
-				<left>150</left>
-				<top>759</top>
+				<posx>150</posx>
+				<posy>759</posy>
 				<width>330</width>
 				<label>186</label>
 				<onup>12</onup>
@@ -139,8 +139,8 @@
 
 			<control type="button" id="19">
 				<description>Cancel</description>
-				<left>540</left>
-				<top>759</top>
+				<posx>540</posx>
+				<posy>759</posy>
 				<width>330</width>
 				<label>222</label>
 				<onup>12</onup>
