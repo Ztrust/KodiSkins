@@ -154,6 +154,11 @@
 						<width>383</width>
 						<label>24069</label>
 					</control>
+					
+					<control type="button" id="12">
+						<description>Launch</description>
+						<width>383</width>
+					</control>
 
 					<control type="button" id="10">
 						<description>Changelog button</description>
