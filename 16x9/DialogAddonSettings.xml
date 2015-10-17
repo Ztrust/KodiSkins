@@ -9,12 +9,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<left>240</left>
-			<top>83</top>
+			<posx>240</posx>
+			<posy>83</posy>
 
 			<control type="image">
-				<posx>-30</left>
-				<posy>-30</top>
+				<posx>-30</posx>
+				<posy>-30</posy>
 				<width>1500</width>
 				<height>975</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,7 +22,7 @@
 
 			<control type="label" id="20">
 				<description>Header Label</description>
-				<left>15</left>
+				<posx>15</posx>
 				<align>center</align>
 				<font>Medium</font>
 				<width>1410</width>
@@ -31,8 +31,8 @@
 
 			<control type="grouplist" id="9">
 				<description>button area</description>
-				<left>15</left>
-				<top>114</top>
+				<posx>15</posx>
+				<posy>114</posy>
 				<width>387</width>
 				<height>702</height>
 				<itemgap>3</itemgap>
@@ -44,8 +44,8 @@
 
 			<control type="grouplist" id="2">
 				<description>control area</description>
-				<left>458</left>
-				<top>114</top>
+				<posx>458</posx>
+				<posy>114</posy>
 				<width>969</width>
 				<height>690</height>
 				<itemgap>3</itemgap>
@@ -90,8 +90,8 @@
 			</control>
 
 			<control type="image">
-				<left>15</left>
-				<top>513</top>
+				<posx>15</posx>
+				<posy>513</posy>
 				<width>383</width>
 				<height>383</height>
 				<texture fallback="DefaultAddon.png">$INFO[ListItem.Icon]</texture>
@@ -101,13 +101,13 @@
 			</control>
 
 			<control type="group" id="9001">
-				<left>458</left>
-				<top>828</top>
+				<posx>458</posx>
+				<posy>828</posy>
 
 				<control type="button" id="10">
 					<description>OK Button</description>
-					<left>0</left>
-					<top>0</top>
+					<posx>0</posx>
+					<posy>0</posy>
 					<width>300</width>
 					<label>186</label>
 					<onleft>12</onleft>
@@ -118,8 +118,8 @@
 
 				<control type="button" id="11">
 					<description>Cancel Button</description>
-					<left>335</left>
-					<top>0</top>
+					<posx>335</posx>
+					<posy>0</posy>
 					<width>300</width>
 					<label>222</label>
 					<onleft>10</onleft>
@@ -130,8 +130,8 @@
 
 				<control type="button" id="12">
 					<description>Defaults Button</description>
-					<left>669</left>
-					<top>0</top>
+					<posx>669</posx>
+					<posy>0</posy>
 					<width>300</width>
 					<label>409</label>
 					<onleft>11</onleft>

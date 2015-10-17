@@ -11,8 +11,8 @@
 		<include>View_50_List</include>
 
 		<control type="grouplist" id="9000">
-			<left>15</left>
-			<top>210</top>
+			<posx>15</posx>
+			<posy>210</posy>
 			<width>330</width>
 			<height>900</height>
 			<itemgap>3</itemgap>

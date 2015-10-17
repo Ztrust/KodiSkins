@@ -10,7 +10,7 @@
 
 		<control type="label">
 			<description>Header Label</description>
-			<left>660</left>
+			<posx>660</posx>
 			<width>600</width>
 			<label>130</label>
 			<font>Medium</font>
@@ -19,11 +19,11 @@
 		</control>
 
 		<control type="group">
-			<top>75</top>
+			<posy>75</posy>
 
 			<control type="grouplist" id="9000">
-				<left>15</left>
-				<top>336</top>
+				<posx>15</posx>
+				<posy>336</posy>
 				<width>300</width>
 				<height>518</height>
 				<itemgap>3</itemgap>
@@ -64,7 +64,7 @@
 			</control>
 
 			<control type="grouplist">
-				<left>510</left>
+				<posx>510</posx>
 				<width>1200</width>
 				<height>900</height>
 				<itemgap>3</itemgap>
