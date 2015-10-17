@@ -5,7 +5,7 @@
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
-
+        <!-- needs autologin support -->
 		<include>GlobalOverlay</include>
 
 		<control type="group">

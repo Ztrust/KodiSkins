@@ -5,7 +5,7 @@
 	<allowoverlay>no</allowoverlay>
 
 	<controls>
-
+        <!-- Needs group and mixed by button -->
 		<include>GlobalOverlay</include>
 
 		<control type="group">
@@ -30,7 +30,7 @@
 				<width>1140</width>
 				<font>Medium</font>
 				<align>center</align>
-				<label>21432</label>
+				<label>-</label>
 			</control>
 
 			<control type="spincontrolex" id="22">
@@ -92,7 +92,7 @@
 				<posx>15</posx>
 				<posy>381</posy>
 				<width>840</width>
-				<height>207</height>
+				<height>107</height>
 				<onup>12</onup>
 				<onleft>9000</onleft>
 				<onright>9000</onright>

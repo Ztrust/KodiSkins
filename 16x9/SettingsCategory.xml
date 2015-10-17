@@ -17,7 +17,7 @@
 			<itemgap>3</itemgap>
 			<onleft>5</onleft>
 			<onright>5</onright>
-			<onup>3</onup>
+			<onup>20</onup>
 			<ondown>3</ondown>
 			<orientation>vertical</orientation>
 		</control>
@@ -55,6 +55,15 @@
 		<control type="button" id="10">
 			<description>Default Category Button</description>
 			<align>left</align>
+		</control>
+		
+		<control type="button" id="20">
+			<description>settingslevelchange</description>
+			<onup>3</onup>
+			<ondown>3</ondown>
+			<align>left</align>
+			 <!-- <label>10037</label> --> <!--locall -->
+			<onclick>SettingsLevelChange</onclick>
 		</control>
 
 	</controls>
