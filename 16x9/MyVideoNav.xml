@@ -98,6 +98,14 @@
 				<align>left</align>
 				<label>20411</label>
 			</control>
+			
+			<control type="togglebutton" id="20">
+				<description>Update library</description>
+				<width>330</width>
+				<align>left</align>
+                <label>653</label> <!-- locall -->
+				<altlabel>13353</altlabel>
+			</control>
 
 			<control type="button" id="21">
 				<description>Activate Filter</description>
