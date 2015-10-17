@@ -82,8 +82,10 @@ msgctxt "#31016"
 msgid "Background Visuals"
 msgstr ""
 
+#. 31017 empty
+
 msgctxt "#31017"
-msgid "Lyrics"
+msgid ""
 msgstr ""
 
 msgctxt "#31018"
@@ -117,6 +119,8 @@ msgstr ""
 msgctxt "#31025"
 msgid "Click to change default Lyrics script"
 msgstr ""
+
+#. 31026 empty
 
 msgctxt "#31026"
 msgid ""
