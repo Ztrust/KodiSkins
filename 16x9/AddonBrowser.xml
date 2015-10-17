@@ -46,7 +46,7 @@
 				<altlabel>585</altlabel>
 			</control>
 
-			<control type="radiobutton" id="5">
+			<control type="button" id="5">
 				<description>Enable auto-updates</description>
 				<label>24063</label>
 				<align>left</align>
