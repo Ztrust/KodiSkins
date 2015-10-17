@@ -4,8 +4,13 @@
 
 	<default type="label">
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<left>-</left>
 		<top>-</top>
+=======
+		<posx>0</posx>
+		<posy>0</posy>
+>>>>>>> parent of 755778e... changed to left top instead of xy
 =======
 		<posx>0</posx>
 		<posy>0</posy>
@@ -49,8 +54,13 @@
 
 	<default type="button">
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<left>-</left>
 		<top>-</top>
+=======
+		<posx>0</posx>
+		<posy>0</posy>
+>>>>>>> parent of 755778e... changed to left top instead of xy
 =======
 		<posx>0</posx>
 		<posy>0</posy>
