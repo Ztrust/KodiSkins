@@ -3,18 +3,8 @@
 <includes>
 
 	<default type="label">
-<<<<<<< HEAD
-<<<<<<< HEAD
-		<left>-</left>
-		<top>-</top>
-=======
 		<posx>0</posx>
 		<posy>0</posy>
->>>>>>> parent of 755778e... changed to left top instead of xy
-=======
-		<posx>0</posx>
-		<posy>0</posy>
->>>>>>> parent of 755778e... changed to left top instead of xy
 		<label>-</label>
 		<height>66</height>
 		<align>left</align>
@@ -53,18 +43,12 @@
 	</default>
 
 	<default type="button">
-<<<<<<< HEAD
-<<<<<<< HEAD
 		<left>-</left>
 		<top>-</top>
-=======
 		<posx>0</posx>
 		<posy>0</posy>
->>>>>>> parent of 755778e... changed to left top instead of xy
-=======
 		<posx>0</posx>
 		<posy>0</posy>
->>>>>>> parent of 755778e... changed to left top instead of xy
 		<width>450</width>
 		<height>66</height>
 		<align>center</align>
