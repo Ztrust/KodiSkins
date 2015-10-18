@@ -54,7 +54,7 @@
 				<textcolor>blue</textcolor>
 			</control>
 
-			<control type="edit" id="12">
+			<control type="edit" id="12"> <!-- Fix -->
 				<description>Name Button</description>
 				<posx>15</posx>
 				<posy>243</posy>
