@@ -7,6 +7,9 @@
 	<coordinates>
 		<origin x="420" y="270" />
 	</coordinates>
+	
+<!-- 	http://forum.kodi.tv/showthread.php?tid=194515&pid=1771814#pid1771814 
+	chek for changes need to internatiol keyboard -->
 
 	<controls>
 
@@ -47,7 +50,7 @@
 				<texture border="20">other_textures/KeyboardEditArea.png</texture>
 			</control>
 
-			<control type="label" id="310">
+			<control type="edit" id="312"> <!-- fix -->
 				<description>Edit Text</description>
 				<posx>53</posx>
 				<posy>75</posy>
