@@ -20,14 +20,14 @@
 			<texture border="22">other_textures/ContentPanel.png</texture>
 		</control>
 
-		<control type="label">
+		<control type="label" id="2"> <!-- fix -->
 			<description>header label</description>
 			<posx>15</posx>
 			<posy>15</posy>
 			<width>990</width>
 			<align>center</align>
 			<font>Medium</font>
-			<label>5</label>
+			<label>-</label>
 		</control>
 
 		

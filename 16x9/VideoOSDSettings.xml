@@ -12,10 +12,11 @@
 			<animation effect="fade" start="100" end="0" time="400" condition="Window.IsVisible(SliderDialog) | Window.IsVisible(FileBrowser)">Conditional</animation>
 
 			<control type="label" id="2">
-				<description>Settings</description>
+				<description>Header</description>
 				<posx>15</posx>
 				<posy>48</posy>
 				<width>870</width>
+				<label>-</label>
 				<font>Medium</font>
 				<shadowcolor>black</shadowcolor>
 				<align>center</align>
