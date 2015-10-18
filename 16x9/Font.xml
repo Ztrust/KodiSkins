@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <fonts>
-	<fontset id="default">
+	<fontset id="default" idloc="31390">
 
 		<font>
 			<name>Home</name>
