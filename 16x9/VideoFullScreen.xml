@@ -25,7 +25,7 @@
 
 			<label>-</label>
 		</control>
-
+                  <!-- maybe fix height -->
 		<control type="label" id="12">
 			<description>row 3 label</description>
 			<posx>30</posx>

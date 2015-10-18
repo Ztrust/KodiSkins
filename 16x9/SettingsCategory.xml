@@ -51,7 +51,12 @@
 			<description>Default Spin Control</description>
 			<align>left</align>
 		</control>
-
+		
+		<control type="sliderex" id="13">
+			<description>sliderex</description>
+			<align>left</align>
+		</control>
+		
 		<control type="button" id="10">
 			<description>Default Category Button</description>
 			<align>left</align>
