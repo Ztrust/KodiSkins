@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window id="132">
-	<defaultcontrol always="true">3</defaultcontrol>
+	<defaultcontrol always="true">20</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
@@ -20,14 +20,14 @@
 				<texture border="22">other_textures/ContentPanel.png</texture>
 			</control>
 
-			<control type="label" id="20">
+<!-- 			<control type="label" id="20">
 				<description>Header Label</description>
 				<posx>15</posx>
 				<align>center</align>
 				<font>Medium</font>
 				<width>1290</width>
 				<label>20333</label>
-			</control>
+			</control> -->
 
 			<control type="image">
 				<posx>15</posx>
@@ -40,7 +40,7 @@
 				<bordersize>8</bordersize>
 			</control>
 
-			<control type="spincontrolex" id="3">
+			<control type="spincontrolex" id="20">
 				<description>Directory Content</description>
 				<posx>435</posx>
 				<posy>68</posy>
@@ -49,7 +49,7 @@
 				<label>-</label>
 				<align>right</align>
 				<onup>29</onup>
-				<ondown>4</ondown>
+				<ondown>21</ondown>
 				<onleft>28</onleft>
 				<onright>28</onright>
 			</control>
@@ -71,7 +71,7 @@
 				<label>$INFO[Control.GetLabel(3)]</label>
 			</control>
 
-			<control type="list" id="4">
+			<control type="list" id="21">
 				<posx>435</posx>
 				<posy>158</posy>
 				<width>870</width>
@@ -139,7 +139,7 @@
 				<align>left</align>
 			</control>
 
-			<control type="button" id="6">
+			<control type="button" id="22">
 				<description>Settings</description>
 				<posx>15</posx>
 				<posy>759</posy>
@@ -157,7 +157,7 @@
 				<posy>759</posy>
 				<width>330</width>
 				<label>186</label>
-				<onleft>6</onleft>
+				<onleft>22</onleft>
 				<onright>29</onright>
 				<onup>5</onup>
 				<ondown>3</ondown>
@@ -170,7 +170,7 @@
 				<width>330</width>
 				<label>222</label>
 				<onleft>28</onleft>
-				<onright>6</onright>
+				<onright>22</onright>
 				<onup>5</onup>
 				<ondown>3</ondown>
 			</control>
