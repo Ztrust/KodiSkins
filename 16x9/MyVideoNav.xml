@@ -52,13 +52,13 @@
 				<altlabel>585</altlabel>
 			</control>
 
-			<control type="button" id="5">
+<!-- 			<control type="button" id="5">
 				<description>Files</description>
 				<width>330</width>
 				<align>left</align>
 				<label>31001</label>
 				<onclick>SetFocus(50)</onclick>
-			</control>
+			</control>should be removed -->
 
 
 			<control type="button" id="8">
