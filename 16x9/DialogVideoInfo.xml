@@ -3,7 +3,7 @@
 <window id="2003">
 	<defaultcontrol always="true">9000</defaultcontrol>
 	
-
+<!-- http://forum.kodi.tv/showthread.php?tid=231270&pid=2135449#pid2135449 check for changes -->
 	<controls>
 
 		<include>GlobalOverlay</include>
