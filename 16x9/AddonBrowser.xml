@@ -73,6 +73,13 @@
 				<align>left</align>
 				<width>330</width>
 			</control>
+
+			<control type="radiobutton" id="9"> <!-- locall -->
+				<description>check for repo updates</description>
+				<label> 24034</label>
+				<align>left</align>
+				<width>330</width>
+			</control>
 			
 			<control type="button" id="98">
 				<description>Open Player Controls</description>
