@@ -5,6 +5,13 @@
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
+							<control type="label" id="14"> <!-- fix -->
+			<description>Default Label</description>
+			<label>-</label>
+			<posx>15</posx>
+			<posy>210</posy>
+		</control>
+
 
 		<control type="group">
 			<posx>510</posx>
@@ -21,6 +28,7 @@
 				<shadowcolor>black</shadowcolor>
 				<align>center</align>
 			</control>
+
 
 			<control type="grouplist" id="5">
 				<description>Control Area</description>

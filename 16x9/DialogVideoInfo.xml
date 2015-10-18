@@ -294,6 +294,11 @@
 						<width>810</width>
 						<info>ListItem.Label</info>
 					</control>
+					<control type="label">
+						<posx>300</posx>   <!-- fix combine -->
+						<width>810</width>
+						<info>ListItem.Label2</info>
+					</control>
 
 				</itemlayout>
 

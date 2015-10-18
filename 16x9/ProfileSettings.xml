@@ -7,6 +7,13 @@
 	<controls>
              <!-- http://forum.kodi.tv/showthread.php?tid=194515  check for changes--> 
 		<include>GlobalOverlay</include>
+								<control type="label" id="14"> <!-- fix -->
+			<description>Default Label</description>
+			<label>-</label>
+			<posx>15</posx>
+			<posy>210</posy>
+		</control>
+
 
 		<control type="group">
 			<posx>630</posx>

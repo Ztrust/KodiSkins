@@ -29,6 +29,13 @@
 			<font>Medium</font>
 			<label>-</label>
 		</control>
+		
+		<control type="label" id="14"> <!-- fix -->
+			<description>Default Label</description>
+			<label>-</label>
+			<posx>15</posx>
+			<posy>210</posy>
+		</control>
 
 		
 		<control type="grouplist" id="5">

@@ -7,6 +7,14 @@
 	<controls>
 
 		<include>GlobalBackground</include>
+		
+		
+			<control type="label" id="14"> <!-- fix -->
+			<description>Default Label</description>
+			<label>-</label>
+			<posx>15</posx>
+			<posy>210</posy>
+		</control>
 
 		<control type="grouplist" id="3">
 			<description>Button Area</description>

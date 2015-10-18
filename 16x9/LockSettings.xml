@@ -5,6 +5,13 @@
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
+							<control type="label" id="14"> <!-- fix -->
+			<description>Default Label</description>
+			<label>-</label>
+			<posx>15</posx>
+			<posy>210</posy>
+		</control>
+
 
 		<include>GlobalOverlay</include>
 
