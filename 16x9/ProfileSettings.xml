@@ -5,7 +5,7 @@
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
-
+             <!-- http://forum.kodi.tv/showthread.php?tid=194515  check for changes--> 
 		<include>GlobalOverlay</include>
 
 		<control type="group">
