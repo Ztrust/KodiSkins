@@ -3,8 +3,6 @@
 <includes>
 
 	<default type="label">
-		<posx>0</posx>
-		<posy>0</posy>
 		<label>-</label>
 		<height>66</height>
 		<align>left</align>

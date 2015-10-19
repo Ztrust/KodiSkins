@@ -6,4 +6,18 @@
 	<color name="Blue">FF0000FF</color>
 	<color name="Green">FF00FF00</color>
 	<color name="FanartDiffuse">66FFFFFF</color>
+		
+		
+		<!-- ============= -->
+		<!--    my colors    -->
+		<!-- ============= -->
+	
+	
+	<color name="black">FF000000</color>
+	<color name="white">FFFFFFFF</color>
+	<color name="themecolor">FFFFFFFF</color>
+	<color name="red">FFFF0000</color>
+	<color name="blue">FF0000FF</color>
+	<color name="green">FF00FF00</color>
+	<color name="fanartDiffuse">66FFFFFF</color>
 </colors>

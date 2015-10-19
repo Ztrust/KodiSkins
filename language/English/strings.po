@@ -230,15 +230,23 @@ msgid "Default"
 msgstr ""
 
 
+#. Font Title not used
 
 #. Font Title
 msgctxt "#31391"
 msgid "Roboto"
 msgstr ""
 
+#. Font Title not used
+
 #. Font Title
 msgctxt "#31392"
 msgid "RobotoV2"
+msgstr ""
+
+#. Font Title
+msgctxt "#31393"
+msgid "aajohan"
 msgstr ""
 
 #Description Labels
