@@ -1,5 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Foundation -->
+
+<window id="4">
+	<defaultcontrol always="true">9000</defaultcontrol>
+
+ <backgroundcolor>white</backgroundcolor>
+
+	<controls>
+
+<!--		<include>Global_Overlay</include>
+		<include>Clock</include>-->
+		<!-- <include>GlobalBackground</include> -->
+
+		<!--Turn into Variable For all Headers-->
+
+		<control type="label">
+			<description>Settings Header</description>
+			<left>50</left>
+			<top>50</top>
+			<height>60</height>
+			<width>500</width>		
+			<textcolor>black</textcolor>				
+			<font>Header</font>
+			<label>SETTINGS</label>
+		</control>
+		
+		<control type="label">
+			<description>Settings Header</description>
+			<left>75</left>
+			<top>90</top>
+			<height>60</height>
+			<width>500</width>		
+			<textcolor>grey2</textcolor>				
+			<font>Subheader</font>
+			<label>another label here</label>
+		</control>		
+
+		<!--Turn into Variable For all Headers-->
+
+		<control type="wraplist" id="9000">
+			<description>Settings Wraplist</description>
+			<left>140</left>
+			<top>200</top>
+			<width>1320</width>
+			<height>60</height>
+			<onup>300</onup>
+			<ondown>300</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<movement>1</movement>
+			<orientation>horizontal</orientation>
+			<focusposition>2</focusposition>
+			<scrolltime tween="sine" easing="out">200</scrolltime>			
+
+			<itemlayout width="220" height="600">
+
+				<control type="label">
+					<left>0</left>
+					<height>60</height>
+					<width>210</width>		
+					<aligny>center</aligny>
+                    <align>center</align>
+					<textcolor>grey</textcolor>				
+					<font>Menu</font>
+					<label>$INFO[ListItem.Label]</label>
+					</control>
+
+			</itemlayout>
+
+			<focusedlayout width="230" height="60">
+
+				<control type="label">
+					<left>0</left>
+					<width>220</width>
+					<height>60</height>
+                    <aligny>center</aligny>
+                    <align>center</align>
+					<label>$INFO[ListItem.Label]</label>
+					<font>MenuF</font>
+					<textcolor>themecolor</textcolor>
+					</control>
+
+			</focusedlayout>
+
+			<content>
+				<item id="1">
+					<label>480</label>
+					<label2>31500</label2>
+					<onclick>ActivateWindow(AppearanceSettings)</onclick>
+				</item>
+
+				<item id="2">
+					<label>3</label>
+					<label2>31501</label2>
+					<onclick>ActivateWindow(VideosSettings)</onclick>
+				</item>
+
+				<item id="3">
+					<description>Music</description>
+					<label>2</label>
+					<label2>31502</label2>
+					<onclick>activatewindow(MusicSettings)</onclick>
+				</item>
+
+				<item id="4">
+					<description>Addons</description>
+					<label>24001</label>
+					<label2>31508</label2>
+					<onclick>activatewindow(AddonBrowser)</onclick>
+				</item>
+
+				<item id="5">
+					<description>Pictures</description>
+					<label>1</label>
+					<label2>31503</label2>
+					<onclick>activatewindow(PicturesSettings)</onclick>
+				</item>
+
+				<item id="6">
+					<description>Weather</description>
+					<label>8</label>
+					<label2>31504</label2>
+					<onclick>activatewindow(WeatherSettings)</onclick>
+				</item>
+
+				<item id="7">
+					<description>Services/Network</description>
+					<label>14036</label>
+					<label2>31510</label2>
+					<onclick>ActivateWindow(ServiceSettings)</onclick>
+				</item>
+
+				<item id="8">
+					<description>System</description>
+					<label>13000</label>
+					<label2>31506</label2>
+					<onclick>activatewindow(SystemSettings)</onclick>
+				</item>
+
+				<!-- 				<item id="9">
+					<description>Profiles</description>
+					<label>13200</label>
+					<onclick>activatewindow(Profiles)</onclick>
+				</item>
+				
+				<item id="10">
+					<description>System Info</description>
+					<label>130</label>
+					<onclick>activatewindow(7)</onclick>
+				</item> -->
+			</content>
+		</control>
+            
+            
+            <!--create separate title labels for offset -->			
+			
+            <control type="textbox">
+				<description>Appearance Description</description>
+				<left>850</left>
+				<top>750</top>
+				<width>900</width>
+				<height>300</height>
+				<font>Menu</font>
+				<label>$INFO[Container(9000).ListItem.Label2]</label>
+				<align>left</align>
+				<textcolor>grey</textcolor>
+				<!-- <shadowcolor>Grey</shadowcolor> -->
+			</control>
+
+	</controls>
+
+</window>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<!{1}** Foundation **{1}>
 <window id="4">
 	<defaultcontrol always="true">9000</defaultcontrol>
 	
@@ -86,10 +301,10 @@
 				</item>
 				
 				<item id="7">
-				<!--confluencefix check label2 -->				
+				<!{1}**confluencefix check label2 **{1}>				
 					<description>Network/service settings</description>
 					<label>14036</label>
-				<!--	<label2>31409</label2>-->
+				<!{1}**	<label2>31409</label2>**{1}>
 					<onclick>ActivateWindow(ServiceSettings)</onclick>
 				</item>
 				
@@ -109,15 +324,15 @@
 					<onclick>activatewindow(7)</onclick>
 				</item>
 				
-	<!--			
+	<!{1}**			
 				<item id="11">
 					<description>Custom Settings</description>
 					<label>636</label>
 					<onclick>activatewindow(56)</onclick>
-				</item>-->
+				</item>**{1}>
 			</content>
 		</control>
 
 	</controls>
 
-</window>
+</window>-->

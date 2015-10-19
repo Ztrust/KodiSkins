@@ -11,63 +11,54 @@
 
 
 <fonts>
-	<fontset id="default" idloc="31390">
-
-		<font>
-			<name>Home</name>
-			<filename>Arial.ttf</filename>
-			<size>96</size>
-		</font>
-		
-		<font>
-			<name>Large</name>
-			<filename>Arial.ttf</filename>
-			<size>48</size>
-		</font>
-		
-		<font>
-			<name>Medium</name>
-			<filename>Arial.ttf</filename>
-			<size>39</size>
-		</font>
-		
-		<font>
-			<name>Small</name>
-			<filename>Arial.ttf</filename>
-			<size>30</size>
-		</font>
-		
-
-		<!-- Required for system -->
-
-		<font>
-			<name>font13</name>
-			<filename>Arial.ttf</filename>
-			<size>30</size>
-		</font>
-
-	</fontset>
-	
 			<!-- ============= -->
 			<!--   my fonts    -->
 			<!-- ============= -->
-	
-	<fontset id="31393" idloc="31393">
+			
+	<fontset id="default" idloc="31390">
 	
 		<font>
 			<name>Menu</name>
 			<filename>Comfortaa-Light.ttf</filename>
-			<style>-</style>
+			<style> capitalize </style>
 			<size>28</size>
 		</font>	
 		
 		<font>
 			<name>MenuF</name>
 			<filename>Comfortaa-Regular.ttf</filename>
-			<style>-</style>
-			<size>30</size>
+			<style> capitalize </style>
+			<size>34</size>
+		</font>
+		
+		<font>
+			<name>Header</name>
+			<filename>OpenSans-ExtraBold.ttf</filename>
+			<style> capitalize </style>
+			<size>48</size>
 		</font>	
 
+		<font>
+			<name>Header2</name>
+			<filename>OpenSans-BoldItalic.ttf</filename>
+			<style> capitalize </style>
+			<size>48</size>
+		</font>
+		
+		<font>
+			<name>Subheader</name>
+			<filename>Comfortaa-Regular.ttf</filename>
+			<!--<style> capitalize </style>-->
+			<size>24</size>
+		</font>	
+		
+		
+		
+		
+		
+			<!-- ============= -->
+			<!--   my fonts    -->
+			<!-- ============= -->
 
 		<font>
 			<name>Home</name>
@@ -98,7 +89,44 @@
 			<name>font13</name>
 			<filename>Arial.ttf</filename>
 			<size>30</size>
-		</font>
+		</font>	
 
+	</fontset>
+	
+	<fontset id="Ariel Based" idloc="31393">
+				<font>
+			<name>Home</name>
+			<filename>Arial.ttf</filename>
+			<size>96</size>
+		</font>
+		
+		<font>
+			<name>Large</name>
+			<filename>Arial.ttf</filename>
+			<size>48</size>
+		</font>
+		
+		<font>
+			<name>Medium</name>
+			<filename>Arial.ttf</filename>
+			<size>39</size>
+		</font>
+		
+		<font>
+			<name>Small</name>
+			<filename>Arial.ttf</filename>
+			<size>30</size>
+		</font>
+		
+
+		<!-- Required for system -->
+
+		<font>
+			<name>font13</name>
+			<filename>Arial.ttf</filename>
+			<size>30</size>
+		</font>
+	
+	
 	</fontset>
 </fonts>

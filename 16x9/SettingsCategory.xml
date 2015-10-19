@@ -1,15 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Foundation -->
+
 <window id="12">
 	<defaultcontrol always="true">3</defaultcontrol>
+	 <backgroundcolor>white</backgroundcolor>
 	
 
 	<controls>
+			
+			<control type="label" id="2">
+			<description>Settings Header</description>
+			<left>50</left>
+			<top>50</top>
+			<height>60</height>
+			<width>500</width>		
+			<textcolor>black</textcolor>				
+			<font>Header</font>
+			<label>-</label>
+		</control>
+		
+		<control type="label" id="14">
+			<description>Settings Header</description>
+			<left>75</left>
+			<top>90</top>
+			<height>60</height>
+			<width>500</width>		
+			<textcolor>grey2</textcolor>				
+			<font>Subheader</font>
+			<label>-</label>
+		</control>	
+	
+	<control type="grouplist" id="3">
+			<description>Button Area</description>
+			<left>140</left>
+			<top>200</top>
+			<width>1120</width>
+			<height>60</height>
+			<onleft>3</onleft>
+			<onright>3</onright>
+			<onup>20</onup>
+			<ondown>5</ondown>
+			<itemgap>10</itemgap>
+			<orientation>horizontal</orientation>
+	</control>
+	
+	        <control type="grouplist" id="5">
+            <description>Control Area</description>
+            <left>200</left>
+            <top>350</top>
+            <width>1400</width>
+            <height>425</height>
+            <itemgap>3</itemgap>
+            <onleft>3</onleft>
+            <onright>3</onright>
+            <onup>5</onup>
+            <ondown>5</ondown>
+            <orientation>vertical</orientation>
+        </control>
+	
+			<control type="button" id="7">
+			<description>Default Button</description>
+			<align>left</align>
+		</control>
 
-		<include>GlobalBackground</include>
+        <control type="radiobutton" id="8">
+            <description>Default Radio Button</description>
+           <radioposx>1325</radioposx>
+        </control>
+
+		<control type="spincontrolex" id="9">
+			<description>Default Spin Control</description>
+			<align>left</align>
+		</control>
+		
+		<control type="sliderex" id="13">
+			<description>sliderex</description>
+			<align>left</align>
+		</control>
+		
+		<control type="button" id="10">
+			<description>Default Category Button</description>
+			<aligny>center</aligny>
+			<align>center</align>
+			<width>220</width>
+		    <height>60</height>
+			<textoffsetx>0</textoffsetx>
+			<textcolor>grey</textcolor>
+		    <focusedcolor>themecolor</focusedcolor>
+			<font>Menu</font>
+		    <texturefocus>-</texturefocus>
+		    <texturenofocus>-</texturenofocus>
+		</control>
+
+		<!--<include>GlobalBackground</include>-->
 		
 		
-			<control type="label" id="14"> <!-- fix -->
+	<!--		<control type="label" id="14"> <!{1}** fix **{1}>
 			<description>Default Label</description>
 			<label>-</label>
 			<posx>15</posx>
@@ -75,9 +160,9 @@
 			<onup>3</onup>
 			<ondown>3</ondown>
 			<align>left</align>
-			 <!-- <label>10037</label> --> <!--locall -->
+			 <!{1}** <label>10037</label> **{1}> <!{1}**locall **{1}>
 			<onclick>SettingsLevelChange</onclick>
-		</control>
+		</control>-->
 
 	</controls>
 

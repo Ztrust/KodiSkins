@@ -226,7 +226,7 @@ msgstr ""
 
 #. Font Title
 msgctxt "#31390"
-msgid "Default"
+msgid "Default By aajohan"
 msgstr ""
 
 
@@ -246,7 +246,7 @@ msgstr ""
 
 #. Font Title
 msgctxt "#31393"
-msgid "aajohan"
+msgid "Ariel based"
 msgstr ""
 
 #Description Labels

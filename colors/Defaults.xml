@@ -12,9 +12,11 @@
 		<!--    my colors    -->
 		<!-- ============= -->
 	
-	
+	<color name="header">FF6d6d6d</color>
 	<color name="black">FF000000</color>
-	<color name="themecolor">FF5b5a5a</color>
+    <color name="grey">FF5b5a5a</color>
+	<color name="grey2">FF70706F</color>
+	<color name="themecolor">FF000000</color>
 	<color name="white">FFFFFFFF</color>
 	<color name="red">FFFF0000</color>
 	<color name="blue">FF0000FF</color>
