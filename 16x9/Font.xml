@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
+	<!-- ============= 
+	    lighten 
+        uppercase
+        lowercase
+		capitalize
+		bold
+	 ============= -->
+
+
+
 <fonts>
 	<fontset id="default" idloc="31390">
 
@@ -27,44 +37,9 @@
 			<size>30</size>
 		</font>
 		
-		
-			<!-- ============= -->
-			<!--   my fonts    -->
-			<!-- ============= -->
-		
-		
-		<font>
-			<name>Title</name>
-			<filename>Lastwaerk thin.ttf</filename>
-			<size>96</size>
-		</font>
-
-		<font>
-			<name>com</name>
-			<filename>Comfortaa-Bold.ttf</filename>
-			<size>96</size>
-		</font>		
-		
-		
-		<font>
-			<name>Title2</name>
-			<filename>Lastwaerk regular.ttf</filename>
-			<size>62</size>
-		</font>	
-
-		<font>
-			<name>Title3</name>
-			<filename>Lastwaerk bold.ttf</filename>
-			<size>96</size>
-		</font>
-
-		<font>
-			<name>Title4</name>
-			<filename>Lastwaerk black.ttf</filename>
-			<size>42</size>
-		</font>
 
 		<!-- Required for system -->
+
 		<font>
 			<name>font13</name>
 			<filename>Arial.ttf</filename>
@@ -73,31 +48,26 @@
 
 	</fontset>
 	
+			<!-- ============= -->
+			<!--   my fonts    -->
+			<!-- ============= -->
+	
 	<fontset id="31393" idloc="31393">
-
+	
 		<font>
-			<name>Title</name>
-			<filename>Lastwaerk thin.ttf</filename>
-			<size>62</size>
-		</font>
-
+			<name>Menu</name>
+			<filename>Comfortaa-Light.ttf</filename>
+			<style>-</style>
+			<size>28</size>
+		</font>	
+		
 		<font>
-			<name>Title2</name>
-			<filename>Lastwaerk regular.ttf</filename>
-			<size>62</size>
+			<name>MenuF</name>
+			<filename>Comfortaa-Regular.ttf</filename>
+			<style>-</style>
+			<size>30</size>
 		</font>	
 
-		<font>
-			<name>Title3</name>
-			<filename>Lastwaerk bold.ttf</filename>
-			<size>62</size>
-		</font>
-
-		<font>
-			<name>Title4</name>
-			<filename>Lastwaerk black.ttf</filename>
-			<size>102</size>
-		</font>
 
 		<font>
 			<name>Home</name>

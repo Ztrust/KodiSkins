@@ -8,9 +8,9 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>Small</font>
-		<textcolor>White</textcolor>
-		<focusedcolor>White</focusedcolor>
-		<selectedcolor>White</selectedcolor>
+		<textcolor>themecolor</textcolor>
+		<focusedcolor>black</focusedcolor>
+		<selectedcolor>blue</selectedcolor>
 		<disabledcolor>Red</disabledcolor>
 	</default>
 
